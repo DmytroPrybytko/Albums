@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.album {
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid burlywood;
+    display: inline-block;
+    vertical-align: top;
+    height: 250px;
+    width: 150px; 
+    
+}
+
+.album p {
+    font-style: oblique;
+}
+
+.album img {
+    vertical-align: bottom;
+}
+
+.album:hover {
+    background-color: rgb(252, 159, 20);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 2;
+    border: 2px solid red;
+    display: inline-block;
+    vertical-align: top;
+    height: 250px;
+    width: 150px; 
+}
+
+
+.input-panel {
+    width: 500px;
+    margin: 8px;
+    padding: 2px;
+}
+
+.input-panel button {
+    padding: 4px;
+    width: 25%;
+}
+
+.input-panel input {
+    height: 23px;
+    padding-left: 4px;
+    width: 68%;
+}
